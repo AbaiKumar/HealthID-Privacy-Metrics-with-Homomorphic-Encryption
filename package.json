@@ -1,0 +1,21 @@
+{
+  "name": "charity-donation",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.12"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

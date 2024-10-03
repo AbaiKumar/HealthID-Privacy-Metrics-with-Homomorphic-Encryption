@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthID System - Ethereum</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.6.0/dist/ethers.umd.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>HealthID System</h1>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <div>
+            <label for="healthID">HealthID:</label>
+            <input type="text" id="healthID" name="healthID" />
+        </div>
+        <div>
+            <label for="phrNumber">PHR Number:</label>
+            <input type="text" id="phrNumber" name="phrNumber" />
+        </div>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" name="dob" />
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender" />
+        </div>
+        <div>
+            <label for="mobile">Mobile Number:</label>
+            <input type="text" id="mobile" name="mobile" />
+        </div>
+        <button onclick="addHealthData()">Encrypt and Add Health Data</button>
+    </div>
+</body>
+
+</html>
